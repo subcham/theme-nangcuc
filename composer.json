@@ -1,0 +1,33 @@
+{
+    "name": "ggg3/theme-nangcuc",
+    "description": "Ophim's nangcuc theme",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ggg3",
+            "email": "admin@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^6|^7|^8",
+        "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
+        "hacoidev/ophim-core": "^1.0.0",
+        "jenssegers/agent": "^2.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ophim\\ThemeNangcuc\\": "src/",
+            "Ophim\\ThemeNangcuc\\Database\\Factories\\": "database/factories/",
+            "Ophim\\ThemeNangcuc\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ophim\\ThemeNangcuc\\ThemeNangcucServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
